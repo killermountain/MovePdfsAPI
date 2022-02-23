@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MovePdfsAPI.Models;
 using System;
 using System.IO;
 
@@ -9,6 +10,9 @@ namespace MovePdfsAPI.Controllers
     [ApiController]
     public class MovePdfsController : ControllerBase
     {
+        PdfToHtml worker_obj = new PdfToHtml();
+        string CWD = AppContext.BaseDirectory;
+
         public IActionResult GetPdf() 
         {
             return Ok("Pdf API running...");
@@ -18,15 +22,16 @@ namespace MovePdfsAPI.Controllers
         [Route("upload")]
         public IActionResult Upload(IFormFile file)
         {
-            if (file.Length > 0)
+            if (file.Length > 0 && file.FileName.ToLower().EndsWith(".pdf"))
             {
-                string CWD = AppContext.BaseDirectory;
                 string filePath = Path.Combine(CWD, "received-pdfs", file.FileName);
 
                 using (Stream fileStream = new FileStream(filePath, FileMode.Create))
                 {
                     file.CopyTo(fileStream);
                 }
+                string output_folder = worker_obj.Convert(filePath, Path.Combine(CWD, "output-html"));
+                
             }
             else
             {

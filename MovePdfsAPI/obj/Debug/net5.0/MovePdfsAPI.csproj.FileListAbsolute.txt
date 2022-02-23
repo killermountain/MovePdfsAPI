@@ -21,3 +21,11 @@ D:\.Net Apps\MovePdfs\MovePdfsAPI\obj\Debug\net5.0\MovePdfsAPI.dll
 D:\.Net Apps\MovePdfs\MovePdfsAPI\obj\Debug\net5.0\ref\MovePdfsAPI.dll
 D:\.Net Apps\MovePdfs\MovePdfsAPI\obj\Debug\net5.0\MovePdfsAPI.pdb
 D:\.Net Apps\MovePdfs\MovePdfsAPI\obj\Debug\net5.0\MovePdfsAPI.genruntimeconfig.cache
+D:\.Net Apps\MovePdfs\MovePdfsAPI\bin\Debug\net5.0\Aspose.Words.Pdf2Word.dll
+D:\.Net Apps\MovePdfs\MovePdfsAPI\bin\Debug\net5.0\Aspose.Words.dll
+D:\.Net Apps\MovePdfs\MovePdfsAPI\bin\Debug\net5.0\SkiaSharp.dll
+D:\.Net Apps\MovePdfs\MovePdfsAPI\bin\Debug\net5.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\.Net Apps\MovePdfs\MovePdfsAPI\bin\Debug\net5.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\.Net Apps\MovePdfs\MovePdfsAPI\bin\Debug\net5.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\.Net Apps\MovePdfs\MovePdfsAPI\bin\Debug\net5.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\.Net Apps\MovePdfs\MovePdfsAPI\obj\Debug\net5.0\MovePdfsAPI.csproj.CopyComplete
