@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net Apps\\MovePdfs\\MovePdfsAPI\\MovePdfsAPI.csproj": {}
+    "D:\\VS.NetApps\\MovePdfs\\MovePdfsAPI\\MovePdfsAPI.csproj": {}
   },
   "projects": {
-    "D:\\.Net Apps\\MovePdfs\\MovePdfsAPI\\MovePdfsAPI.csproj": {
+    "D:\\VS.NetApps\\MovePdfs\\MovePdfsAPI\\MovePdfsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net Apps\\MovePdfs\\MovePdfsAPI\\MovePdfsAPI.csproj",
+        "projectUniqueName": "D:\\VS.NetApps\\MovePdfs\\MovePdfsAPI\\MovePdfsAPI.csproj",
         "projectName": "MovePdfsAPI",
-        "projectPath": "D:\\.Net Apps\\MovePdfs\\MovePdfsAPI\\MovePdfsAPI.csproj",
+        "projectPath": "D:\\VS.NetApps\\MovePdfs\\MovePdfsAPI\\MovePdfsAPI.csproj",
         "packagesPath": "C:\\Users\\Hamad\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net Apps\\MovePdfs\\MovePdfsAPI\\obj\\",
+        "outputPath": "D:\\VS.NetApps\\MovePdfs\\MovePdfsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hamad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Aspose.Words": {
               "target": "Package",
               "version": "[22.2.0, )"
+            },
+            "IronPython": {
+              "target": "Package",
+              "version": "[3.4.0-alpha1, )"
             }
           },
           "imports": [
