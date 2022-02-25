@@ -16,7 +16,7 @@ FORMDATA:
 
   FILENAME: file
   
-  Body: <pdf file>
+  Body: --pdf file--
   
 EXAMPLE REQUEST in JAVASCRIPT
 
