@@ -19,7 +19,9 @@ namespace MovePdfsAPI.Controllers
         static string output_json = Path.Combine(python_scripts, "output-json");
         //--------------------------------- Enter Python Path here ------------------------------------
         static string python_executable = "C:\\Program Files\\Python38\\python.exe";
-        //--------------------------------------------------------------------------------------
+        //---------------------------------------------------------------------------------------------
+        static string hospital_name = "MSE";
+
 
         public IActionResult GetPdf() 
         {
