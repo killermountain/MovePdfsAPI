@@ -8,5 +8,18 @@
 
 
 PDF Upload REST API.
+POST REQUEST PATH: http://localhost:53787/api/movepdfs/upload
+FORMDATA:
+  FILENAME: file
+  Body: <pdf file>
+  
+EXAMPLE REQUEST in JAVASCRIPT
 
-POST REQUEST PATH: http://localhost:53787/api/movepdfs/upload 
+  fetch('http://localhost:53787/api/movepdfs/upload', 
+  {
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/pdf'
+        },
+        body: formData
+  });
