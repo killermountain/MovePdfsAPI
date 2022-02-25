@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9ZuJjHF6U26//oR6K7u82OQRRRm1SJ5VC4sFeGZDW1uYytBqats5MweGAvGdUdZ5QUO+qa35wGHhJ98Hc+4NMg==",
+  "dgSpecHash": "AcJQvxNs36ge3CK258Uqq5eRrEcXDXPQiAhLlVHFMsyqz4My7tgyJ+ZMu14QHSmB+4fGpuzcbMizyTO0MYb5Xw==",
   "success": true,
   "projectFilePath": "D:\\VS.NetApps\\MovePdfs\\MovePdfsAPI\\MovePdfsAPI.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Hamad\\.nuget\\packages\\ironpython\\3.4.0-alpha1\\ironpython.3.4.0-alpha1.nupkg.sha512",
     "C:\\Users\\Hamad\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Hamad\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Hamad\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\Hamad\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Hamad\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Hamad\\.nuget\\packages\\skiasharp\\2.80.1\\skiasharp.2.80.1.nupkg.sha512",

@@ -47,6 +47,10 @@
             "IronPython": {
               "target": "Package",
               "version": "[3.4.0-alpha1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
             }
           },
           "imports": [

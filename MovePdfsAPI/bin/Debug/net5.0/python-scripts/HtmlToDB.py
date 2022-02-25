@@ -1,9 +1,14 @@
 import os
-from bs4 import BeautifulSoup
-import json
-from rake_nltk import Rake
-from mysqlDB import insertDoc, getLastInsertID, insertElementsList
 import sys
+import json
+
+from rake_nltk import Rake
+from bs4 import BeautifulSoup
+from mysqlDB import insertDoc, getLastInsertID, insertElementsList
+import nltk
+
+nltk.download('stopwords')
+nltk.download('punkt')
 
 filepath = sys.argv[1]
 hospital_name = sys.argv[2]
