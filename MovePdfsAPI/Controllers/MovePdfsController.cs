@@ -17,8 +17,10 @@ namespace MovePdfsAPI.Controllers
         string py_script = Path.Combine(python_executable, "HtmlToDB.py");
         static string output_html = Path.Combine(python_scripts, "output-html");
         static string output_json = Path.Combine(python_scripts, "output-json");
+        //--------------------------------- Enter Python Path here ------------------------------------
         static string python_executable = "C:\\Program Files\\Python38\\python.exe";
-        
+        //--------------------------------------------------------------------------------------
+
         public IActionResult GetPdf() 
         {
             return Ok("Pdf API running...");
