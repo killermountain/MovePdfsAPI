@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Aspose.Words/22.2.0": {
+      "Aspose.Words/22.3.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
@@ -18,40 +18,6 @@
         "runtime": {
           "lib/netstandard2.0/Aspose.Words.Pdf2Word.dll": {},
           "lib/netstandard2.0/Aspose.Words.dll": {}
-        }
-      },
-      "DynamicLanguageRuntime/1.3.0": {
-        "type": "package",
-        "dependencies": {
-          "System.CodeDom": "4.7.0",
-          "System.Configuration.ConfigurationManager": "4.7.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Dynamic.dll": {},
-          "lib/netcoreapp3.1/Microsoft.Scripting.Metadata.dll": {},
-          "lib/netcoreapp3.1/Microsoft.Scripting.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Dynamic.dll": {},
-          "lib/netcoreapp3.1/Microsoft.Scripting.Metadata.dll": {},
-          "lib/netcoreapp3.1/Microsoft.Scripting.dll": {}
-        }
-      },
-      "IronPython/3.4.0-alpha1": {
-        "type": "package",
-        "dependencies": {
-          "DynamicLanguageRuntime": "1.3.0",
-          "Microsoft.Win32.Registry": "4.7.0"
-        },
-        "compile": {
-          "lib/net5.0/IronPython.Modules.dll": {},
-          "lib/net5.0/IronPython.SQLite.dll": {},
-          "lib/net5.0/IronPython.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/IronPython.Modules.dll": {},
-          "lib/net5.0/IronPython.SQLite.dll": {},
-          "lib/net5.0/IronPython.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {
@@ -72,7 +38,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.11.1": {
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.14.0": {
         "type": "package",
         "build": {
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
@@ -97,24 +63,6 @@
             "rid": "unix"
           },
           "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
-      "Microsoft.Win32.SystemEvents/4.7.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "3.1.0"
-        },
-        "compile": {
-          "ref/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -147,51 +95,6 @@
           "runtimes/win-x86/native/libSkiaSharp.dll": {
             "assetType": "native",
             "rid": "win-x86"
-          }
-        }
-      },
-      "System.CodeDom/4.7.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.CodeDom.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.CodeDom.dll": {}
-        }
-      },
-      "System.Configuration.ConfigurationManager/4.7.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Security.Cryptography.ProtectedData": "4.7.0",
-          "System.Security.Permissions": "4.7.0"
-        },
-        "compile": {
-          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
-        }
-      },
-      "System.Drawing.Common/4.7.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.Win32.SystemEvents": "4.7.0"
-        },
-        "compile": {
-          "ref/netcoreapp3.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Drawing.Common.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "assetType": "runtime",
-            "rid": "win"
           }
         }
       },
@@ -309,34 +212,6 @@
           }
         }
       },
-      "System.Security.Cryptography.ProtectedData/4.7.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
-      "System.Security.Permissions/4.7.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Security.AccessControl": "4.7.0",
-          "System.Windows.Extensions": "4.7.0"
-        },
-        "compile": {
-          "ref/netcoreapp3.0/System.Security.Permissions.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/System.Security.Permissions.dll": {}
-        }
-      },
       "System.Security.Principal.Windows/4.7.0": {
         "type": "package",
         "compile": {
@@ -396,32 +271,14 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
-      },
-      "System.Windows.Extensions/4.7.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Drawing.Common": "4.7.0"
-        },
-        "compile": {
-          "ref/netcoreapp3.0/System.Windows.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
       }
     }
   },
   "libraries": {
-    "Aspose.Words/22.2.0": {
-      "sha512": "jo2Zs2TbaN6T//nuQ6oM06TcdoMA2FKZwTTdWLUWC+bZIzw5PWO41bfDvLN8uiIR7Nt8JbVlw4zXs/T+mGFv0w==",
+    "Aspose.Words/22.3.0": {
+      "sha512": "fbaYAvYadPOLSyW1rGxOBvpEc++GpRJXSjoA6ga8ljy/671FBlZxxg5pGSUgKjEF1c2VIuALsM8USq+9fnJKOw==",
       "type": "package",
-      "path": "aspose.words/22.2.0",
+      "path": "aspose.words/22.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -429,7 +286,7 @@
         "Images/aspose_words-for-net.png",
         "License/Aspose_End-User-License-Agreement.txt",
         "License/thirdpartylicenses-Aspose.Words for .NET.pdf",
-        "aspose.words.22.2.0.nupkg.sha512",
+        "aspose.words.22.3.0.nupkg.sha512",
         "aspose.words.nuspec",
         "lib/net20/Aspose.Words.dll",
         "lib/net20/Aspose.Words.xml",
@@ -445,92 +302,6 @@
         "lib/netstandard2.0/Aspose.Words.Pdf2Word.dll",
         "lib/netstandard2.0/Aspose.Words.dll",
         "lib/netstandard2.0/Aspose.Words.xml"
-      ]
-    },
-    "DynamicLanguageRuntime/1.3.0": {
-      "sha512": "a3ATP2CAiAQdcnj5mBgyhqyjoAiCXjuiLY8x3yAmo2Uacs7ecKvre8sc30dcgfN9YGAM9s9dvBIlyqisJLg1ew==",
-      "type": "package",
-      "path": "dynamiclanguageruntime/1.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "README.md",
-        "dynamiclanguageruntime.1.3.0.nupkg.sha512",
-        "dynamiclanguageruntime.nuspec",
-        "lib/net45/Microsoft.Dynamic.dll",
-        "lib/net45/Microsoft.Dynamic.xml",
-        "lib/net45/Microsoft.Scripting.Metadata.dll",
-        "lib/net45/Microsoft.Scripting.Metadata.xml",
-        "lib/net45/Microsoft.Scripting.dll",
-        "lib/net45/Microsoft.Scripting.xml",
-        "lib/netcoreapp2.1/Microsoft.Dynamic.dll",
-        "lib/netcoreapp2.1/Microsoft.Dynamic.xml",
-        "lib/netcoreapp2.1/Microsoft.Scripting.Metadata.dll",
-        "lib/netcoreapp2.1/Microsoft.Scripting.Metadata.xml",
-        "lib/netcoreapp2.1/Microsoft.Scripting.dll",
-        "lib/netcoreapp2.1/Microsoft.Scripting.xml",
-        "lib/netcoreapp3.1/Microsoft.Dynamic.dll",
-        "lib/netcoreapp3.1/Microsoft.Dynamic.xml",
-        "lib/netcoreapp3.1/Microsoft.Scripting.Metadata.dll",
-        "lib/netcoreapp3.1/Microsoft.Scripting.Metadata.xml",
-        "lib/netcoreapp3.1/Microsoft.Scripting.dll",
-        "lib/netcoreapp3.1/Microsoft.Scripting.xml",
-        "lib/netstandard2.0/Microsoft.Dynamic.dll",
-        "lib/netstandard2.0/Microsoft.Dynamic.xml",
-        "lib/netstandard2.0/Microsoft.Scripting.Metadata.dll",
-        "lib/netstandard2.0/Microsoft.Scripting.Metadata.xml",
-        "lib/netstandard2.0/Microsoft.Scripting.dll",
-        "lib/netstandard2.0/Microsoft.Scripting.xml"
-      ]
-    },
-    "IronPython/3.4.0-alpha1": {
-      "sha512": "vZe6RaRKCDqLF3Yqm9IatX2i4M7mn1N7P7RfIz9ebxfDnYB3Nl4OgbBnBwu/HC2F7zNhmY0ABYyhvZYnHhNUQQ==",
-      "type": "package",
-      "path": "ironpython/3.4.0-alpha1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "README.md",
-        "ironpython.3.4.0-alpha1.nupkg.sha512",
-        "ironpython.nuspec",
-        "lib/net46/IronPython.Modules.dll",
-        "lib/net46/IronPython.Modules.xml",
-        "lib/net46/IronPython.SQLite.dll",
-        "lib/net46/IronPython.SQLite.xml",
-        "lib/net46/IronPython.Wpf.dll",
-        "lib/net46/IronPython.Wpf.xml",
-        "lib/net46/IronPython.dll",
-        "lib/net46/IronPython.xml",
-        "lib/net5.0-windows/IronPython.Wpf.dll",
-        "lib/net5.0-windows/IronPython.Wpf.xml",
-        "lib/net5.0/IronPython.Modules.dll",
-        "lib/net5.0/IronPython.Modules.xml",
-        "lib/net5.0/IronPython.SQLite.dll",
-        "lib/net5.0/IronPython.SQLite.xml",
-        "lib/net5.0/IronPython.dll",
-        "lib/net5.0/IronPython.xml",
-        "lib/netcoreapp2.1/IronPython.Modules.dll",
-        "lib/netcoreapp2.1/IronPython.Modules.xml",
-        "lib/netcoreapp2.1/IronPython.SQLite.dll",
-        "lib/netcoreapp2.1/IronPython.SQLite.xml",
-        "lib/netcoreapp2.1/IronPython.dll",
-        "lib/netcoreapp2.1/IronPython.xml",
-        "lib/netcoreapp3.1/IronPython.Modules.dll",
-        "lib/netcoreapp3.1/IronPython.Modules.xml",
-        "lib/netcoreapp3.1/IronPython.SQLite.dll",
-        "lib/netcoreapp3.1/IronPython.SQLite.xml",
-        "lib/netcoreapp3.1/IronPython.Wpf.dll",
-        "lib/netcoreapp3.1/IronPython.Wpf.xml",
-        "lib/netcoreapp3.1/IronPython.dll",
-        "lib/netcoreapp3.1/IronPython.xml",
-        "lib/netstandard2.0/IronPython.Modules.dll",
-        "lib/netstandard2.0/IronPython.Modules.xml",
-        "lib/netstandard2.0/IronPython.SQLite.dll",
-        "lib/netstandard2.0/IronPython.SQLite.xml",
-        "lib/netstandard2.0/IronPython.dll",
-        "lib/netstandard2.0/IronPython.xml"
       ]
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
@@ -565,10 +336,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.11.1": {
-      "sha512": "1jHxWlSi6/ryWODk6SUjsZPHk/BdsucxqhIi1szEzwc84e8nvZWF45qRXcT2gWPISJ3Ybbyg2LsNG6yX8r7VuA==",
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.14.0": {
+      "sha512": "yORzATlNmCp4kEwkxznLZ3maTaUJc5yTcu3aPufY8Tq4141/bRRWsa91u8I24MR3BTCCJlZO98xuQWB4arlKCw==",
       "type": "package",
-      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.11.1",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.14.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -596,7 +367,7 @@
         "build/ToolsTarget.props",
         "build/ToolsTarget.targets",
         "icon.png",
-        "microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
         "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
         "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
         "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
@@ -691,35 +462,6 @@
         "version.txt"
       ]
     },
-    "Microsoft.Win32.SystemEvents/4.7.0": {
-      "sha512": "mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
-      "type": "package",
-      "path": "microsoft.win32.systemevents/4.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.Win32.SystemEvents.dll",
-        "lib/net461/Microsoft.Win32.SystemEvents.xml",
-        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
-        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-        "microsoft.win32.systemevents.nuspec",
-        "ref/net461/Microsoft.Win32.SystemEvents.dll",
-        "ref/net461/Microsoft.Win32.SystemEvents.xml",
-        "ref/net472/Microsoft.Win32.SystemEvents.dll",
-        "ref/net472/Microsoft.Win32.SystemEvents.xml",
-        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
-        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
-        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
-        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
-        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "SkiaSharp/2.80.1": {
       "sha512": "CiQwnDzG+1JNGzjAN9G/9n/lJgUVA/NPOFgSlEtu6c7qQ0O7P1tMjrXp/+PtWfX0xyyY9ABsFAZK2kW34U7r/A==",
       "type": "package",
@@ -796,91 +538,6 @@
         "skiasharp.2.80.1.nupkg.sha512",
         "skiasharp.nuspec",
         "xamarin.interactive/SkiaSharp.Workbooks.dll"
-      ]
-    },
-    "System.CodeDom/4.7.0": {
-      "sha512": "Hs9pw/kmvH3lXaZ1LFKj3pLQsiGfj2xo3sxSzwiLlRL6UcMZUTeCfoJ9Udalvn3yq5dLlPEZzYegrTQ1/LhPOQ==",
-      "type": "package",
-      "path": "system.codedom/4.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.CodeDom.dll",
-        "lib/net461/System.CodeDom.xml",
-        "lib/netstandard2.0/System.CodeDom.dll",
-        "lib/netstandard2.0/System.CodeDom.xml",
-        "ref/net461/System.CodeDom.dll",
-        "ref/net461/System.CodeDom.xml",
-        "ref/netstandard2.0/System.CodeDom.dll",
-        "ref/netstandard2.0/System.CodeDom.xml",
-        "system.codedom.4.7.0.nupkg.sha512",
-        "system.codedom.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Configuration.ConfigurationManager/4.7.0": {
-      "sha512": "/anOTeSZCNNI2zDilogWrZ8pNqCmYbzGNexUnNhjW8k0sHqEZ2nHJBp147jBV3hGYswu5lINpNg1vxR7bnqvVA==",
-      "type": "package",
-      "path": "system.configuration.configurationmanager/4.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Configuration.ConfigurationManager.dll",
-        "lib/net461/System.Configuration.ConfigurationManager.xml",
-        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
-        "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
-        "ref/net461/System.Configuration.ConfigurationManager.dll",
-        "ref/net461/System.Configuration.ConfigurationManager.xml",
-        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
-        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
-        "system.configuration.configurationmanager.4.7.0.nupkg.sha512",
-        "system.configuration.configurationmanager.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Drawing.Common/4.7.0": {
-      "sha512": "v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
-      "type": "package",
-      "path": "system.drawing.common/4.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net461/System.Drawing.Common.dll",
-        "lib/netstandard2.0/System.Drawing.Common.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net461/System.Drawing.Common.dll",
-        "ref/netcoreapp3.0/System.Drawing.Common.dll",
-        "ref/netcoreapp3.0/System.Drawing.Common.xml",
-        "ref/netstandard2.0/System.Drawing.Common.dll",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
-        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
-        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "system.drawing.common.4.7.0.nupkg.sha512",
-        "system.drawing.common.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "System.IO/4.3.0": {
@@ -1369,78 +1026,6 @@
         "version.txt"
       ]
     },
-    "System.Security.Cryptography.ProtectedData/4.7.0": {
-      "sha512": "ehYW0m9ptxpGWvE4zgqongBVWpSDU/JCFD4K7krxkQwSz/sFQjEXCUqpvencjy6DYDbn7Ig09R8GFffu8TtneQ==",
-      "type": "package",
-      "path": "system.security.cryptography.protecteddata/4.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Security.Cryptography.ProtectedData.dll",
-        "lib/net461/System.Security.Cryptography.ProtectedData.dll",
-        "lib/net461/System.Security.Cryptography.ProtectedData.xml",
-        "lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
-        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
-        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net46/System.Security.Cryptography.ProtectedData.dll",
-        "ref/net461/System.Security.Cryptography.ProtectedData.dll",
-        "ref/net461/System.Security.Cryptography.ProtectedData.xml",
-        "ref/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
-        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
-        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/win/lib/net46/System.Security.Cryptography.ProtectedData.dll",
-        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.dll",
-        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.xml",
-        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
-        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
-        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
-        "system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
-        "system.security.cryptography.protecteddata.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Security.Permissions/4.7.0": {
-      "sha512": "dkOV6YYVBnYRa15/yv004eCGRBVADXw8qRbbNiCn/XpdJSUXkkUeIvdvFHkvnko4CdKMqG8yRHC4ox83LSlMsQ==",
-      "type": "package",
-      "path": "system.security.permissions/4.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Security.Permissions.dll",
-        "lib/net461/System.Security.Permissions.xml",
-        "lib/netcoreapp3.0/System.Security.Permissions.dll",
-        "lib/netcoreapp3.0/System.Security.Permissions.xml",
-        "lib/netstandard2.0/System.Security.Permissions.dll",
-        "lib/netstandard2.0/System.Security.Permissions.xml",
-        "ref/net461/System.Security.Permissions.dll",
-        "ref/net461/System.Security.Permissions.xml",
-        "ref/netcoreapp3.0/System.Security.Permissions.dll",
-        "ref/netcoreapp3.0/System.Security.Permissions.xml",
-        "ref/netstandard2.0/System.Security.Permissions.dll",
-        "ref/netstandard2.0/System.Security.Permissions.xml",
-        "system.security.permissions.4.7.0.nupkg.sha512",
-        "system.security.permissions.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Security.Principal.Windows/4.7.0": {
       "sha512": "ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "type": "package",
@@ -1678,34 +1263,12 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
-    },
-    "System.Windows.Extensions/4.7.0": {
-      "sha512": "CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
-      "type": "package",
-      "path": "system.windows.extensions/4.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp3.0/System.Windows.Extensions.dll",
-        "lib/netcoreapp3.0/System.Windows.Extensions.xml",
-        "ref/netcoreapp3.0/System.Windows.Extensions.dll",
-        "ref/netcoreapp3.0/System.Windows.Extensions.xml",
-        "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll",
-        "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.xml",
-        "system.windows.extensions.4.7.0.nupkg.sha512",
-        "system.windows.extensions.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Aspose.Words >= 22.2.0",
-      "IronPython >= 3.4.0-alpha1",
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.11.1"
+      "Aspose.Words >= 22.3.0",
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.14.0"
     ]
   },
   "packageFolders": {
@@ -1749,15 +1312,11 @@
         "dependencies": {
           "Aspose.Words": {
             "target": "Package",
-            "version": "[22.2.0, )"
-          },
-          "IronPython": {
-            "target": "Package",
-            "version": "[3.4.0-alpha1, )"
+            "version": "[22.3.0, )"
           },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
-            "version": "[1.11.1, )"
+            "version": "[1.14.0, )"
           }
         },
         "imports": [
