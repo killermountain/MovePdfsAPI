@@ -20,7 +20,7 @@
     "MovePdfsAPI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "api/movepdfs",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

@@ -69,3 +69,4 @@ D:\VS.NetApps\MovePdfs\MovePdfsAPI\obj\Debug\net5.0\MovePdfsAPI.dll
 D:\VS.NetApps\MovePdfs\MovePdfsAPI\obj\Debug\net5.0\ref\MovePdfsAPI.dll
 D:\VS.NetApps\MovePdfs\MovePdfsAPI\obj\Debug\net5.0\MovePdfsAPI.pdb
 D:\VS.NetApps\MovePdfs\MovePdfsAPI\obj\Debug\net5.0\MovePdfsAPI.genruntimeconfig.cache
+D:\VS.NetApps\MovePdfs\MovePdfsAPI\obj\Debug\net5.0\MovePdfsAPI.csproj.AssemblyReference.cache

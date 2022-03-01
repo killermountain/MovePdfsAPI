@@ -14,11 +14,11 @@ namespace MovePdfsAPI.Controllers
         static string CWD = AppContext.BaseDirectory;
         static string received_pdfs = Path.Combine(CWD, "received-pdfs");
         static string python_scripts = Path.Combine(CWD, "python-scripts");
-        string py_script = Path.Combine(python_executable, "HtmlToDB.py");
-        static string output_html = Path.Combine(python_scripts, "output-html");
+        string py_script = Path.Combine(python_scripts, "HtmlToDB.py");
+        static string output_html_folder = Path.Combine(python_scripts, "output-html");
         static string output_json = Path.Combine(python_scripts, "output-json");
         //--------------------------------- Enter Python Path here ------------------------------------
-        static string python_executable = "C:\\Program Files\\Python38\\python.exe";
+        static string python_executable = @"""C:\Program Files\Python38\python.exe""";
         //---------------------------------------------------------------------------------------------
         static string hospital_name = "MSE";
 
@@ -32,8 +32,11 @@ namespace MovePdfsAPI.Controllers
         [Route("upload")]
         public IActionResult Upload(IFormFile file)
         {
-            if (file.Length > 0 && file.FileName.ToLower().EndsWith(".pdf"))
+            if (file != null && file.Length > 0 && file.FileName.ToLower().EndsWith(".pdf"))
             {
+                if (!Directory.Exists(received_pdfs)) 
+                { Directory.CreateDirectory(received_pdfs); }
+
                 string filename = file.FileName.Replace(".pdf","");
                 string filePath = Path.Combine(received_pdfs, file.FileName);
 
@@ -41,16 +44,21 @@ namespace MovePdfsAPI.Controllers
                 {
                     file.CopyTo(fileStream);
                 }
-                string output_folder = worker_obj.Convert(filePath, output_html);
+                string output_folder = worker_obj.Convert(filePath, output_html_folder);
+                if (output_folder == "-1")
+                { BadRequest("Unable to convert PDF to HTML."); }
 
                 //      RunPython.execPython(); (python_exec_path, script, filepath, json_out, hospital)
-                return Ok(RunPython.execPython(python_executable, py_script, Path.Combine(output_html,filename,filename+".html"), output_json, hospital_name));
+                string output = RunPython.execPython(python_executable, py_script, Path.Combine(output_html_folder, filename, filename + ".html"), output_json, hospital_name);
+                if (output.Contains("done!")) 
+                {return Ok("File received, processed and saved into the database.");}
+                else { return BadRequest("Error while parsing html."); }
+                
             }
             else
             {
-                BadRequest("Not a valid pdf file.");
+                return BadRequest("Not a valid pdf file.");
             }
-            return Ok("File ---> " + file.FileName + " <--- received.");
         }
 
         [HttpPost]

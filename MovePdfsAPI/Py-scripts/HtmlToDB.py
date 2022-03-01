@@ -192,7 +192,7 @@ def processHTML(filename, logfile, is_json=True, debug = False, logging=True):
         json_object = json.dumps(output, indent = 4)
         
         # print("Writing file", filename[:-5] + ".json")
-        with open(ouput_json+ os.path.sep + name + ".json", "w") as outfile:
+        with open(ouput_json + name + ".json", "w") as outfile:
             outfile.write(json_object)
     # ---------------------------------------------------------------------------#
 
@@ -204,5 +204,5 @@ def processHTML(filename, logfile, is_json=True, debug = False, logging=True):
 logfile = ''
 
 processHTML(filepath, logfile)
-print("done!")
+print("done")
 
