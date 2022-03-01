@@ -32,7 +32,7 @@ namespace MovePdfsAPI.Models
                 error = process.StandardError.ReadToEnd();
             }
 
-            if (error == "")
+            if (output.Contains("done!"))
                 return output;
             else
                 return error;

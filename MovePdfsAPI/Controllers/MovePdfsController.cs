@@ -50,7 +50,7 @@ namespace MovePdfsAPI.Controllers
 
                 //      RunPython.execPython(); (python_exec_path, script, filepath, json_out, hospital)
                 string output = RunPython.execPython(python_executable, py_script, Path.Combine(output_html_folder, filename, filename + ".html"), output_json, hospital_name);
-                if (output.Contains("done!")) 
+                if (output.Contains("done!"))
                 {return Ok("File received, processed and saved into the database.");}
                 else { return BadRequest("Error while parsing html."); }
                 

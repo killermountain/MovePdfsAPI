@@ -1,0 +1,1229 @@
+{
+    "Hospital_name": "MSE",
+    "Filename": "05117admissionpolicy4_1",
+    "No. of elements": 128,
+    "elements": [
+        {
+            "data": {
+                "is_heading": 1,
+                "text": "Evaluation Only. Created with Aspose.Words. Copyright 2003-2022 Aspose Pty Ltd."
+            },
+            "type": "ListItem",
+            "sequence_num": 1
+        },
+        {
+            "type": "image",
+            "sequence_num": 2,
+            "data": {
+                "url": "05117AdmissionPolicy4_1.003.png"
+            }
+        },
+        {
+            "type": "Table",
+            "sequence_num": 3,
+            "data": {
+                "num_rows": 1,
+                "row_items": [
+                    {
+                        "num_cols": 2,
+                        "text": "Policy Register No: 05117 Status: Public"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Table",
+            "sequence_num": 4,
+            "data": {
+                "num_rows": 2,
+                "row_items": [
+                    {
+                        "num_cols": 2,
+                        "text": "Good practice NHSLA Risk management standards"
+                    },
+                    {
+                        "num_cols": 2,
+                        "text": "17"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Table",
+            "sequence_num": 5,
+            "data": {
+                "num_rows": 7,
+                "row_items": [
+                    {
+                        "num_cols": 3,
+                        "text": "Date"
+                    },
+                    {
+                        "num_cols": 3,
+                        "text": "28th June 2018"
+                    },
+                    {
+                        "num_cols": 3,
+                        "text": "28th June 2018"
+                    },
+                    {
+                        "num_cols": 3,
+                        "text": "28th June 2018"
+                    },
+                    {
+                        "num_cols": 3,
+                        "text": "28th June 2018"
+                    },
+                    {
+                        "num_cols": 3,
+                        "text": "28th June 2018"
+                    },
+                    {
+                        "num_cols": 3,
+                        "text": "28th June 2018"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Table",
+            "sequence_num": 6,
+            "data": {
+                "num_rows": 2,
+                "row_items": [
+                    {
+                        "num_cols": 1,
+                        "text": "Professionally Approved By:"
+                    },
+                    {
+                        "num_cols": 3,
+                        "text": "28th June 2018"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Table",
+            "sequence_num": 7,
+            "data": {
+                "num_rows": 11,
+                "row_items": [
+                    {
+                        "num_cols": 2,
+                        "text": "4.1"
+                    },
+                    {
+                        "num_cols": 2,
+                        "text": "Corporate Nurse"
+                    },
+                    {
+                        "num_cols": 2,
+                        "text": "DRAG Chairman's Action"
+                    },
+                    {
+                        "num_cols": 2,
+                        "text": "28th June 2018"
+                    },
+                    {
+                        "num_cols": 2,
+                        "text": "July 2018"
+                    },
+                    {
+                        "num_cols": 2,
+                        "text": "28th June 2018"
+                    },
+                    {
+                        "num_cols": 2,
+                        "text": "May 2021 \u2013 extended to 31 August 2021"
+                    },
+                    {
+                        "num_cols": 2,
+                        "text": "Helen Ali, Head Of Site Management"
+                    },
+                    {
+                        "num_cols": 2,
+                        "text": "All MEHT staff"
+                    },
+                    {
+                        "num_cols": 2,
+                        "text": "Internet & Website"
+                    },
+                    {
+                        "num_cols": 2,
+                        "text": "11037 Adult Discharge Policy 11038 Direction of Choice Policy Same Sex Accommodation policy 11042 Patient Transfer Policy DNAR Policy Mental Health Act Policy 10067 General ICU COP 04225A Admission to Neonatal Unit 09107B Maternity Acute COP 10023 Phoenix Children's Unit COP"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "text": "Document Review History:"
+            },
+            "type": "ListItem",
+            "sequence_num": 8
+        },
+        {
+            "type": "Table",
+            "sequence_num": 9,
+            "data": {
+                "num_rows": 5,
+                "row_items": [
+                    {
+                        "num_cols": 3,
+                        "text": "Issue Date:"
+                    },
+                    {
+                        "num_cols": 3,
+                        "text": "March 2011"
+                    },
+                    {
+                        "num_cols": 3,
+                        "text": "November 2014"
+                    },
+                    {
+                        "num_cols": 3,
+                        "text": "28th June 2018"
+                    },
+                    {
+                        "num_cols": 3,
+                        "text": "27May 2021"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "text": "Index 1.0  Purpose"
+            },
+            "type": "ListItem",
+            "sequence_num": 10
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 2.0,
+                "text": "Policy"
+            },
+            "type": "ListItem",
+            "sequence_num": 11
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 3.0,
+                "text": "Scope"
+            },
+            "type": "ListItem",
+            "sequence_num": 12
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 4.0,
+                "text": "Patient Communications on Admission"
+            },
+            "type": "ListItem",
+            "sequence_num": 13
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 5.0,
+                "text": "Responsibilities"
+            },
+            "type": "ListItem",
+            "sequence_num": 14
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 6.0,
+                "text": "Routes of admission"
+            },
+            "type": "ListItem",
+            "sequence_num": 15
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 7.0,
+                "text": "Admissions to Emergency Assessment Unit (EAU)"
+            },
+            "type": "ListItem",
+            "sequence_num": 16
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 8.0,
+                "text": "Admission from the Emergency Department"
+            },
+            "type": "ListItem",
+            "sequence_num": 17
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 9.0,
+                "text": "Admission from Out-Patient Emergency Referrals"
+            },
+            "type": "ListItem",
+            "sequence_num": 18
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 10.0,
+                "text": "Admission for Elective care"
+            },
+            "type": "ListItem",
+            "sequence_num": 19
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 11.0,
+                "text": "Elective Day Care"
+            },
+            "type": "ListItem",
+            "sequence_num": 20
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 12.0,
+                "text": "Admission to a ward"
+            },
+            "type": "ListItem",
+            "sequence_num": 21
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 13.0,
+                "text": "Training and Education"
+            },
+            "type": "ListItem",
+            "sequence_num": 22
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 14.0,
+                "text": "Audit and monitoring"
+            },
+            "type": "ListItem",
+            "sequence_num": 23
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 15.0,
+                "text": "Communication and Implementation"
+            },
+            "type": "ListItem",
+            "sequence_num": 24
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 16.0,
+                "text": "Review"
+            },
+            "type": "ListItem",
+            "sequence_num": 25
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 17.0,
+                "text": "References"
+            },
+            "type": "ListItem",
+            "sequence_num": 26
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 18.0,
+                "text": "Appendix"
+            },
+            "type": "ListItem",
+            "sequence_num": 27
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Appendix 1 Equality Impact Assessment"
+            },
+            "type": "ListItem",
+            "sequence_num": 28
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 1.0,
+                "text": "Purpose of Policy"
+            },
+            "type": "ListItem",
+            "sequence_num": 29
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 1.1,
+                "text": "Mid Essex NHS Trust will ensure that the admission of service users is effective, consistent and encompasses a whole systems approach to care, which should provide a positive experience for service users and carers and involves a seamless process between teams, services and organisations. It reiterates that care must be organised around the needs of individual service users and carers; and that the transfer between services includes negotiation and agreement and that the process is well managed"
+            },
+            "type": "ListItem",
+            "sequence_num": 30
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 1.2,
+                "text": "This policy applies to all service users being admitted to and from all in-patient services provided by the Trust,"
+            },
+            "type": "ListItem",
+            "sequence_num": 31
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 1.3,
+                "text": "The aim of this policy is to ensure that all patients are admitted to a welcoming safe environment that preserves their privacy and dignity. Information, both verbal and written, should be available to them and their carers in a format that they can understand and due consideration should be given to their individual needs."
+            },
+            "type": "ListItem",
+            "sequence_num": 32
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 2.0,
+                "text": "Policy"
+            },
+            "type": "ListItem",
+            "sequence_num": 33
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 2.1,
+                "text": "All patients admitted to the Trust whether for planned or emergency care, must receive equitable treatment and be provided with standard information to enable them to be safely orientated and made to feel secure in the environment. At the point of admission, staff looking after the patient must record all information required to ensure the needs of the patient are fully met during their stay in hospital and to ensure that appropriate provisions are made for discharge."
+            },
+            "type": "ListItem",
+            "sequence_num": 34
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 2.2,
+                "text": "The processes described in this policy should be used in conjunction with the Trust's Transfer, Discharge, Bed Management and Same Sex Accommodation and Infection Prevention and Control Policies, as well as the Direction of Choice policy as well as others to support the best interests of patient care whilst under our care."
+            },
+            "type": "ListItem",
+            "sequence_num": 35
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 2.3,
+                "text": "The Trust has a responsibility to ensure that clinical accommodation is appropriately staffed and equipped to support available beds."
+            },
+            "type": "ListItem",
+            "sequence_num": 36
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 2.4,
+                "text": "The Trust is committed to ensuring that patients have timely, appropriate and personalised care and the admission process is fundamental to achieving this aim."
+            },
+            "type": "ListItem",
+            "sequence_num": 37
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 1.0,
+                "text": "The Trust is committed to eliminating racism, sexism and all forms of discrimination. We will not discriminate on grounds of age, colour, disability, sexuality, ethnic origin, gender, gender reassignment, culture, health status, marital status, social or economic status, nationality or national origins, race religious belief. An Equality Impact Assessment is attached as Appendix"
+            },
+            "type": "ListItem",
+            "sequence_num": 38
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 2.6,
+                "text": "Pro-active communication at all levels within the multi-disciplinary team should be established and maintained throughout the patient's admission and all such communications should be documented in the patient's record. This will ensure and facilitate the commencement of Discharge Planning at the time of admission, or in some cases before admission takes place."
+            },
+            "type": "ListItem",
+            "sequence_num": 39
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 3.0,
+                "text": "Scope"
+            },
+            "type": "ListItem",
+            "sequence_num": 40
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 3.1,
+                "text": "This policy only applies to adults 16+ and non critically ill patients. Other policies and procedures below should be referred to regarding admission to General Intensive Care, Maternity, Neonatal or Children & Young People's Services:"
+            },
+            "type": "ListItem",
+            "sequence_num": 41
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "10067 General ICU COP"
+            },
+            "type": "ListItem",
+            "sequence_num": 42
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "04225A Admission to Neonatal Unit"
+            },
+            "type": "ListItem",
+            "sequence_num": 43
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "09107B Maternity Acute COP"
+            },
+            "type": "ListItem",
+            "sequence_num": 44
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "10023 Phoenix Children's Unit COP"
+            },
+            "type": "ListItem",
+            "sequence_num": 45
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 3.2,
+                "text": "This document applies to all healthcare staff working in the Trust, including managers, nurses, doctors and allied health professionals or whoever first makes contact with the patient and initiates assessment of their needs."
+            },
+            "type": "ListItem",
+            "sequence_num": 46
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 4.0,
+                "text": "Patient Communications on Admission"
+            },
+            "type": "ListItem",
+            "sequence_num": 47
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 4.1,
+                "text": "Each patient arriving in the Trust must be greeted by a member of staff who must introduce themselves by name and title e.g. doctor, nurse ward clerks etc. An outline of the admission process must be described to the patient and any carers / family members supporting them. The name of the doctor under whom the patient has been admitted must be given and details of any routine procedures i.e. taking of details, routine observations, blood test, must be explained."
+            },
+            "type": "ListItem",
+            "sequence_num": 48
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 4.2,
+                "text": "During this process and any subsequent discussions all patients should be shown respect for cultural and religious beliefs and should have access to translation services and pastoral care where requested/necessary."
+            },
+            "type": "ListItem",
+            "sequence_num": 49
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 4.3,
+                "text": "The aim will be to orientate the patient to the local environment as soon as is practicably possible which should include the location of the toilets, washing facilities and nurse call system. This will also include an explanation of the ward routine which would cover for example ward round times, meal times and visiting times. If there are any restrictions on visiting times these should also be explained and documented to the patent and any accompanying person."
+            },
+            "type": "ListItem",
+            "sequence_num": 50
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 4.4,
+                "text": "The patient must be asked if they have any particular needs that need to be met to support their hospital stay. At this point it is important to establish if the patient has any communication requirements. If any are identified the staff member must follow the Trust Interpreting and Translation Policy."
+            },
+            "type": "ListItem",
+            "sequence_num": 51
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 4.5,
+                "text": "Patients' nursing care individual needs should be assessed and planned in accordance with the local ward area nursing documentation"
+            },
+            "type": "ListItem",
+            "sequence_num": 52
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 4.6,
+                "text": "MDT assessments and plans should be documented in the current episode"
+            },
+            "type": "ListItem",
+            "sequence_num": 53
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 5.0,
+                "text": "Responsibilities"
+            },
+            "type": "ListItem",
+            "sequence_num": 54
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 5.1,
+                "text": "Managing Director"
+            },
+            "type": "ListItem",
+            "sequence_num": 55
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "The Managing Director has overall responsibility for ensuring and supporting the development, implementation and monitoring of the Policy, to meet its legal obligations and to adopt policies and practices which promote safe practice."
+            },
+            "type": "ListItem",
+            "sequence_num": 56
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 5.2,
+                "text": "Chief Operating Officer"
+            },
+            "type": "ListItem",
+            "sequence_num": 57
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Chief Operating Officer has a responsibility to ensure that there is an appropriate and effective system in place for admission to, and transfer and discharge from services within the Trust."
+            },
+            "type": "ListItem",
+            "sequence_num": 58
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 5.3,
+                "text": "Director of Nursing"
+            },
+            "type": "ListItem",
+            "sequence_num": 59
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "The Director of Nursing is responsible for the delivery of professional nursing and midwifery standards and care across the Trust and supporting compliance with the policy"
+            },
+            "type": "ListItem",
+            "sequence_num": 60
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 5.4,
+                "text": "Medical Director"
+            },
+            "type": "ListItem",
+            "sequence_num": 61
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "The Medical Director is responsible for the delivery of the medical professional standards and care across the Trust and supporting compliance with the policy."
+            },
+            "type": "ListItem",
+            "sequence_num": 62
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 5.5,
+                "text": "Medical Staff"
+            },
+            "type": "ListItem",
+            "sequence_num": 63
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Medical staff will be responsible for ensuring that patients are examined and clerked in a timely manner following admission to the Trust. This should occur within two hours for patients admitted as an emergency and within four hours for those patients electively admitted, who have not already attended pre- admission clinic."
+            },
+            "type": "ListItem",
+            "sequence_num": 64
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "At the time of clerking, the medical staff will provide the patient with an explanation as to the reason for their admission and the likely treatment plan."
+            },
+            "type": "ListItem",
+            "sequence_num": 65
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "At the time of clerking or senior review, medical staff will determine a predicted date of discharge, which will be discussed with the patient and documented in their medical notes. Clinical directors and Heads of Nursing must ensure that all staff receive instruction on completing admission documentation and that medical staff at all grades are responsible for ensuring that the admission policy is adhered to."
+            },
+            "type": "ListItem",
+            "sequence_num": 66
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 5.6,
+                "text": "ADoN's/ Matrons / Sisters / Charge Nurses"
+            },
+            "type": "ListItem",
+            "sequence_num": 67
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "ADoNs/Matrons/Sisters/Charge Nurses have overall responsibility to ensure that their team are aware of this policy, supported by Clinical Directors & Matrons"
+            },
+            "type": "ListItem",
+            "sequence_num": 68
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 5.7,
+                "text": "Ward/department managers"
+            },
+            "type": "ListItem",
+            "sequence_num": 69
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "5.7.1  Ward/department managers must ensure that all staff receive instruction on completing admission documentation and that nursing staff at all bands are responsible for ensuring that the admission policy is adhered to. The admitting nurse is responsible for ensuring the following:"
+            },
+            "type": "ListItem",
+            "sequence_num": 70
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Accepting the verbal handover using SBAR and ensuring patient safety and collation of information on the needs of the patient that is being admitted from an emergency route"
+            },
+            "type": "ListItem",
+            "sequence_num": 71
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Ensuring that MRSA status and or patient with diarrhoea or any other isolation requirement is discussed and documented"
+            },
+            "type": "ListItem",
+            "sequence_num": 72
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Prepare the patient bed area and required equipment, making these ready to receive the patient."
+            },
+            "type": "ListItem",
+            "sequence_num": 73
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Identify the patient need and record in the relevant documentation and pass on to other appropriate persons as required \u2013 including the nurse gathering information on Activities of Daily Living, home situation and support in place etc."
+            },
+            "type": "ListItem",
+            "sequence_num": 74
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "On admission each patient must be made aware of the expected discharge date EDD, this will be documented in the notes to assist the multidisciplinary team plan and co-ordinate a safe and timely discharge"
+            },
+            "type": "ListItem",
+            "sequence_num": 75
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 6.0,
+                "text": "Routes of Admission"
+            },
+            "type": "ListItem",
+            "sequence_num": 76
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 6.1,
+                "text": "There are a number of reasons for admission to hospital, with the two pathways being known (i.e. an elective / planned admission) or unknown (i.e. a non-elective /emergency admission). It is however recognised that whether known (planned) or unknown (emergency), admission to hospital carries a significant level of anxiety for most patients. This constitutes a disruption to their normal lives and for this reason admission should always be handled sensitively and with the full involvement of the patient or their carers."
+            },
+            "type": "ListItem",
+            "sequence_num": 77
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 6.2,
+                "text": "Wherever patients are admitted to hospital they must be afforded dignity and not placed in a mixed sex area. It is the aim of the hospital to Deliver Same Sex Accommodation (DSSA) for patients who stay overnight. The only exception to the DSSA policy is by clinical exception only, this must be assessed by a Senior Nurse and can only must be time limited,. This will be communicated to the patient and or relatives as soon as it occurs"
+            },
+            "type": "ListItem",
+            "sequence_num": 78
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 6.3,
+                "text": "To support patient safety and quality of care, through the admission process patients will be risk assessed for Venous Thromboembolism (VTE) and Methicillin-resistant Staphylococcus aureus (MRSA). This will be completed irrespective of whether the patient is a planned or emergency patient. If admissions are part of the planned pathway this is likely to be completed as part of preoperative assessment process."
+            },
+            "type": "ListItem",
+            "sequence_num": 79
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 6.4,
+                "text": "As part of the admissions process patients must have 1 printed wristband detailing the following information:-"
+            },
+            "type": "ListItem",
+            "sequence_num": 80
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Full name"
+            },
+            "type": "ListItem",
+            "sequence_num": 81
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Date of birth"
+            },
+            "type": "ListItem",
+            "sequence_num": 82
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "NHS number."
+            },
+            "type": "ListItem",
+            "sequence_num": 83
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Hospital Number"
+            },
+            "type": "ListItem",
+            "sequence_num": 84
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Refer to the 08090 Patient ID Policy for more information."
+            },
+            "type": "ListItem",
+            "sequence_num": 85
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 7.0,
+                "text": "Admissions to Emergency Village"
+            },
+            "type": "ListItem",
+            "sequence_num": 86
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 7.1,
+                "text": "Calls from General Practitioners requesting a medical or surgical admission will be taken by the appropriate nurse coordinator/ or doctor assigned to the GP phone in hours and to on-call medical teams via switch board out of hours. Following this call and acceptance it is the responsibility of the person taking the call to input the patient information on the admissions diary and care flow system."
+            },
+            "type": "ListItem",
+            "sequence_num": 87
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 7.2,
+                "text": "All GP referrals will attend directing to AMU for medical referrals and to SEW for surgical patients unless:"
+            },
+            "type": "ListItem",
+            "sequence_num": 88
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "7.2.1 The patient's condition has deteriorated en-route and requires resuscitation."
+            },
+            "type": "ListItem",
+            "sequence_num": 89
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "7.2.2 The patient is a direct referral to a specialist in-patient area, for example burns, plastics and ENT."
+            },
+            "type": "ListItem",
+            "sequence_num": 90
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "7.2.3 The AMU/SEW are full and it would not be safe to admit the patient into this unit following risk review with divisional leads."
+            },
+            "type": "ListItem",
+            "sequence_num": 91
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "7.2.4 The Clinical Site Team, in conjunction with the Shift Co-ordinator in AMU/SEW will make the decision to:"
+            },
+            "type": "ListItem",
+            "sequence_num": 92
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 7.3,
+                "text": "Such a decision must be based on a risk assessment of the situation and approved by the Chief Operating Officer or Executive Director on call. This decision need to be made based on a risk assessment."
+            },
+            "type": "ListItem",
+            "sequence_num": 93
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 7.4,
+                "text": "Patients referred by their General Practitioner who, due to lack of capacity, are admitted via the Emergency Department must be seen by the accepting Consultant team within 1hour of arrival in accordance with the trust's Internal Professional Standards. The Emergency Department NIC will be responsible for informing the accepting Consultant team of their arrival."
+            },
+            "type": "ListItem",
+            "sequence_num": 94
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 8.0,
+                "text": "Admission from the Emergency Department"
+            },
+            "type": "ListItem",
+            "sequence_num": 95
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 8.1,
+                "text": "Attendances to the Emergency Department can either be self-presentation or other health care professional referral. They will then be treated in accordance with the Emergency village service specifications."
+            },
+            "type": "ListItem",
+            "sequence_num": 96
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 8.2,
+                "text": "Once a decision is made to Refer to a speciality patients will be transferred to either the Emergency Village SEW or other assessment area. Referral Information must be sufficiently detailed to enable the safe and effective care and treatment of patients coming into in-patient services."
+            },
+            "type": "ListItem",
+            "sequence_num": 97
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 8.3,
+                "text": "Once patients have been seen and a decision to admit has been made the NIC will request a bed via the COMS team Bed allocation will be made as soon as possible and once the bed is allocated it is expected that patients will move within 30 minutes of the allocation of the bed."
+            },
+            "type": "ListItem",
+            "sequence_num": 98
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 8.4,
+                "text": "If assessment areas are full the shift lead in the ED will inform the clinical Site Team (COM) and seek a bed for the patient. Bed allocation will be made as soon as possible and once the bed is allocated it is expected that patients will move within 30 minutes of the allocation of the bed. To support this process the patient details are entered onto the A&E system on presentation / discharge and updated on Lorenzo once a decision to admit has been made."
+            },
+            "type": "ListItem",
+            "sequence_num": 99
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 9.0,
+                "text": "Admission from Out-Patient Emergency Referrals"
+            },
+            "type": "ListItem",
+            "sequence_num": 100
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 9.1,
+                "text": "A number of patients attend the Trust for an out-patient appointment where it may become apparent that they require emergency treatment involving an inpatient stay. The out-patient staff will contact the Site Office who will then allocate an inpatient bed. In these circumstances the patient may remain in the out-patient department for a short time. If there is a delay in the identification of a bed then the patient should be transferred to an appropriate designated area in agreement with the COM."
+            },
+            "type": "ListItem",
+            "sequence_num": 101
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 10.0,
+                "text": "Admission for Elective Care"
+            },
+            "type": "ListItem",
+            "sequence_num": 102
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 10.1,
+                "text": "These patients have an in-patient admission as a result of a previously agreed need for in-patient care. The need can be identified by a range of health professionals and from a range of environments. The key factor in defining the admission as elective is that admission is not required to occur immediately the decision to admit is made."
+            },
+            "type": "ListItem",
+            "sequence_num": 103
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 10.2,
+                "text": "Such admissions are normally managed by the Waiting List Office, in line with their internal processes and national guidelines on wait times for elective admission. Once a decision on admission date has been made, the"
+            },
+            "type": "ListItem",
+            "sequence_num": 104
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "information is passed to Site Office via a To Come In (TCI) list. The letters sent to the patient will tell them were to arrive in the hospital and on what day."
+            },
+            "type": "ListItem",
+            "sequence_num": 105
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 12.0,
+                "text": "Elective Day Care"
+            },
+            "type": "ListItem",
+            "sequence_num": 106
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 11.1,
+                "text": "Patients who meet the criteria required for day admission surgery are seen prior to admission in the Pre-Admission Assessment Clinic in order to ensure that they are fit for surgery and to pre-clerk them from a surgical perspective."
+            },
+            "type": "ListItem",
+            "sequence_num": 107
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 11.2,
+                "text": "They are seen on the day of surgery by the anaesthetist who will administer their anaesthetic and the operating surgeon to consent them for the procedure."
+            },
+            "type": "ListItem",
+            "sequence_num": 108
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 11.3,
+                "text": "Patients attending for Day Care will receive specific instructions from MEHT on arrival times, where to arrive, the need for fasting and procedures following surgery. On the day of procedure there will also be information given about likely pick up times for relatives as well."
+            },
+            "type": "ListItem",
+            "sequence_num": 109
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 12.0,
+                "text": "Admission to a Ward"
+            },
+            "type": "ListItem",
+            "sequence_num": 110
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 12.1,
+                "text": "From these pathways as described above patients will be assessed and then admitted if necessary to an inpatient bed. Every effort will be made to match the need of the patient to the right bed in the hospital, so that the patient is in receipt of care from the appropriate speciality. It will be the responsibility of the clerking process to ensure that the right bed is sought for the patient and all of the information is passed to the COM to enable a bed to be found."
+            },
+            "type": "ListItem",
+            "sequence_num": 111
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 12.2,
+                "text": "In extreme situations were the hospital is experiencing severe bed pressures, elective admissions will be progressively cancelled according to the lowest clinical need, following consultation with the Heads of department and the Chief Operating Officer and relevant Consultant for the area. This will be to ensure that patient safety remains a priority. Patients will be informed of cancellations by the speciality team, supported by the Chief Operating Officer, Heads of Departments and Site team. Out of hours this will be carried out by the Clinical Site Manager with support from the on call manager if required."
+            },
+            "type": "ListItem",
+            "sequence_num": 112
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 12.3,
+                "text": "Both the sending and receiving area are advised by the Site Office that a bed is available and a member of nursing staff must give a clinical handover from the sending area to a member of nursing staff in the receiving area initially this is completed by telephone and then when the patient is physically moved to the ward /area this will be completed in a face to face handover. (This handover should not involve Health Care Assistants or Ward Clerks."
+            },
+            "type": "ListItem",
+            "sequence_num": 113
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 12.4,
+                "text": "Once the patient arrives in the ward environment the patient is admitted to the ward. This involves the taking of a full history and observations, all of which must be recorded in the patient records. This will incorporate any information already provided for example from assessment in the ED. Although assessment commences at the point of admission, it should not be viewed as a finite process: information gathered from the patient, family and other health professionals should continue to be added to the information base throughout the patient's stay, especially as the patient's condition changes."
+            },
+            "type": "ListItem",
+            "sequence_num": 114
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 12.5,
+                "text": "The process of admission is also to explain to the patient what is happening and involve them in this process. This will follow all relevant Trust policies e.g. single sex compliance, infection control, patient identification etc. the patient and their carer will be familiarised with the environment, visiting times etc and the plan of care for them. This will be to ensure that the discharge planning from the inpatient bed is commenced as soon as the patient is admitted. This is to ensuring that all patients admitted to hospital will have a comprehensive, individually designed care plan. Care plans should be designed in collaboration with the patient/carer in order that they can understand why they have been admitted, and their future plan of care. In order to allow patients to make the necessary arrangements, discussion of an expected date of discharge (EDD) should commence on admission and be updated regularly to the patient/carer"
+            },
+            "type": "ListItem",
+            "sequence_num": 115
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 13.0,
+                "text": "Training and Education"
+            },
+            "type": "ListItem",
+            "sequence_num": 116
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 13.1,
+                "text": "MEHT is committed to ensuring that a policy and guideline are available to staff to inform the management of admission, transfer and discharge to, in and from the Trust services. The Trust also commits to ensuring that staff are adequately trained in the aspects of admission, transfer and discharge (ATD) planning and that ATDs are well managed."
+            },
+            "type": "ListItem",
+            "sequence_num": 117
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 13.2,
+                "text": "The Trust recognises its responsibility to ensure that staff are appropriately educated and trained to participate effectively in admitting a patient to hospital. To support this both clinical and non clinical staff will received an Induction programme from ward or department manager that will ensure staff are trained on the appropriate IT systems as per job descriptions i.e. Lorenzo"
+            },
+            "type": "ListItem",
+            "sequence_num": 118
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 13.3,
+                "text": "Ward/department managers must ensure that all members receive instruction on completing admission, transfer and discharge documentation."
+            },
+            "type": "ListItem",
+            "sequence_num": 119
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "prefix": 14.0,
+                "text": "Audit and Monitoring"
+            },
+            "type": "ListItem",
+            "sequence_num": 120
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "prefix": 14.1,
+                "text": "Audit will be an integral part of the admissions process. The following measures will be used to annually review the compliance against this Admissions Policy:"
+            },
+            "type": "ListItem",
+            "sequence_num": 121
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Patient complaints \u2013 this information is collected monthly through the Complaints team and can be shared with the Divisions"
+            },
+            "type": "ListItem",
+            "sequence_num": 122
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Breaches of this policy that have led to patient harm reported via Datix, the risk event reporting process"
+            },
+            "type": "ListItem",
+            "sequence_num": 123
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Documentation audit \u2013 at least an annual audit of admission processes and documentation will take place, informing future work projects, monitored through the established performance management metrics. This will be led by the Lead Nurse for Patient Flow in partnership with Clinical audit and will be reported back to the clinical audit sessions and the Operational Group"
+            },
+            "type": "ListItem",
+            "sequence_num": 124
+        },
+        {
+            "data": {
+                "is_heading": 0,
+                "text": "Compliance with VTE and MRSA policies and procedures both in terms of recording but more importantly delivery of prophylactics etc"
+            },
+            "type": "ListItem",
+            "sequence_num": 125
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "text": "This document was truncated here because it was created in the Evaluation Mode."
+            },
+            "type": "ListItem",
+            "sequence_num": 126
+        },
+        {
+            "type": "image",
+            "sequence_num": 127,
+            "data": {
+                "url": "05117AdmissionPolicy4_1.002.png"
+            }
+        },
+        {
+            "data": {
+                "is_heading": 1,
+                "text": "Created with an evaluation copy of Aspose.Words. To discover the full versions of our APIs please visit: https://products.aspose.com/words/"
+            },
+            "type": "ListItem",
+            "sequence_num": 128
+        }
+    ]
+}
