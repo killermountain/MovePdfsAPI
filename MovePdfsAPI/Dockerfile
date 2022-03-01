@@ -9,7 +9,7 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["MovePdfsAPI/MovePdfsAPI.csproj", "MovePdfsAPI/"]
+COPY ["MovePdfsAPI.csproj", "MovePdfsAPI/"]
 RUN dotnet restore "MovePdfsAPI/MovePdfsAPI.csproj"
 COPY . .
 WORKDIR "/src/MovePdfsAPI"
